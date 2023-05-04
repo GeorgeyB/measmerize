@@ -1,0 +1,24 @@
+{
+    "name": "measmerize-assessment",
+    "version": "1.0.0",
+    "description": "Measmerize Software Engineering Technical Assessment",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx nodemon",
+        "build": "npx tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "George",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.16.3",
+        "nodemon": "^2.0.22",
+        "ts-node": "^10.9.1",
+        "tsx": "^3.12.7",
+        "typescript": "^5.0.4"
+    },
+    "dependencies": {
+        "app-root-path": "^3.1.0"
+    }
+}
